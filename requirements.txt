@@ -1,0 +1,4 @@
+Flask==2.1.3
+numpy==1.21.5
+Gunicorn
+scikit-learn==1.0.2

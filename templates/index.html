@@ -1,0 +1,39 @@
+<html>
+<body>
+	<h3>Housing price input form</h3>
+    <h4>Enter the real number for each text field.</h4>
+
+<div>
+    <form action="/result" method="POST">
+        <label for="MedInc">Median Income</label>
+        <input type="text" id="MedInc" name="MedInc">
+        <br>
+        <label for="HouseAge">House Age</label>
+        <input type="text" id="HouseAge" name="HouseAge">
+        <br>
+        <label for="AveRooms">Average Rooms</label>
+        <input type="text" id="AveRooms" name="AveRooms">
+        <br>
+        <label for="AveBedrms">Average Bedrooms</label>
+        <input type="text" id="AveBedrms" name="AveBedrms">
+        <br>
+        <label for="Population">Population</label>
+        <input type="text" id="Population" name="Population">
+        <br>
+        <label for="AveOccup">Average Occupancy</label>
+        <input type="text" id="AveOccup" name="AveOccup">
+        <br>
+        <label for="Latitude">Latitude</label>
+        <input type="text" id="Latitude" name="Latitude">
+        <br>
+        <label for="Longitude">Longitude</label>
+        <input type="text" id="Longitude" name="Longitude">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div>
+    <h1> The price for the house is ${{ prediction }} USD. </h1>
+</div>
+</body>
+</html>
